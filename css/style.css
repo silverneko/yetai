@@ -1,6 +1,8 @@
 body{
   background: #CCCCCC;
+  padding-top: 50px;
 }
 .carousel{
-  background: #777;
+  //background: #777;
+  background: #000000;
 }
