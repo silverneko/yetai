@@ -1,8 +1,31 @@
 body{
-  //background: #CCCCCC;
-  padding-top: 50px;
+//	background: #203744;
+	background: #000000;
+	padding-top: 50px;
+	color: #fff;
+}
+#bands{
+	padding-top: 60px;
+}
+#about{
+	background:#000000;
+}
+hr{
+	color:#444;
 }
 .carousel{
-  //background: #777;
-  background: #000000;
+	//background: #777;
+	background: #000000;
+}
+.navbar{
+	background: #4d4398;
+	color: #fff;
+}
+.navbar-brand{
+	color: #fff;
+}
+.well{
+	padding-top: 20px;
+	background: #000000;
+	border: 0px;
 }
