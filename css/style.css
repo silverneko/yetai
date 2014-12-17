@@ -1,6 +1,6 @@
 body{
 //	background: #203744;
-	background: #000000;
+	background: #222222;
 	color: #fff;
 }
 #banner{
@@ -10,7 +10,7 @@ body{
 	padding-top: 60px;
 }
 #about{
-	background:#000000;
+	//background:#000000;
 }
 hr{
         background-color:#444;
@@ -18,25 +18,38 @@ hr{
         border: 0 none;
         height: 1px;
 }
+h1{
+   color:#428BCA;
+}
 .navbar{
 //	background: #4d4398;
-	background: #333;
+	background: #222222; //#333;
 	color: #fff;
 	margin-bottom: 0;
 }
 .navbar-brand{
 	color: #fff;
 }
+.navbar-brand:hover{
+   color:#428BCA;
+}
 .navbar-nav{
 	color: #fff;
 }
 .well{
 	padding-top: 20px;
-	background: #000000;
+	background: #222222; //#000000;
 	border: 0px;
 }
 .navbar-nav > li > a{
 	color: #fff;
+        background: #222222;
+}
+.navbar-nav > li > a:visited{
+        background: #222222;
+}
+.navbar-nav > li > a:hover{
+        background: #383838;
 }
 .back-to-top {
     position: fixed;
