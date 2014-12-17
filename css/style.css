@@ -3,6 +3,9 @@ body{
 	background: #000000;
 	color: #fff;
 }
+#banner{
+	padding-top: -10px;
+}
 #bands{
 	padding-top: 60px;
 }
@@ -17,8 +20,10 @@ hr{
 	background: #000000;
 }
 .navbar{
-	background: #4d4398;
+//	background: #4d4398;
+	background: #333;
 	color: #fff;
+	margin-bottom: 0;
 }
 .navbar-brand{
 	color: #fff;
