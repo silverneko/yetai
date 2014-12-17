@@ -13,11 +13,10 @@ body{
 	background:#000000;
 }
 hr{
+        background-color:#444;
 	color:#444;
-}
-.carousel{
-	//background: #777;
-	background: #000000;
+        border: 0 none;
+        height: 1px;
 }
 .navbar{
 //	background: #4d4398;
@@ -47,7 +46,7 @@ hr{
     color: #ffffff;
     background-color: #777;
     display: none;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .back-to-top:hover{
     color: #ffffff;
