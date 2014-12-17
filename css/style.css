@@ -39,3 +39,16 @@ hr{
 .navbar-nav > li > a{
 	color: #fff;
 }
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #777;
+    display: none;
+    opacity: 0.8;
+}
+.back-to-top:hover{
+    color: #ffffff;
+}

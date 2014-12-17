@@ -16,6 +16,25 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="shortcut icon" href="./img/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+	</script>
 </head>
 
 <body>
@@ -75,7 +94,7 @@
 			<!-- /.nav-collapse -->
 		</div>
 	</nav>
-	<img src="./img/banner.png" class="img-responsive">
+	<img src="./img/banner.png" class="img-responsive" style="display: block;margin-left: auto;margin-right: auto;">
 <!--	<div class="container" id="bands">
 		<ul class=" pagination">
 			<li><a href="#band1"><img src="./img/band_pic/handsome_ni.jpg" height="60" width="60" class="img-circle"></a>
@@ -109,6 +128,7 @@
 
 	<div class="container" id="about">
 		<div class="well" id="band1">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/handsome_ni.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -138,10 +158,12 @@
 					<li>John Mayer - Slow Dancing In A Burnig Room </li>
 					<li>Michael Jackson - Love Never Felt So Good</li>
 				</ol>
+				
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band2">
+                    <div class="row">
 			<div class="col-md-3"><img src="http://placehold.it/200x200&text=Band 2" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -169,9 +191,10 @@
 					<li>One OK Rock - Clock Strikes</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band3">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/hello_world.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -224,9 +247,10 @@
 					<li>John Mayer - Daughters</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band4">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/csie_multi_gen.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -255,9 +279,10 @@
 					<li>周杰倫 - 蝸牛</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band5">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/ds_wake_ee.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -288,9 +313,10 @@
 					<li> 伍百 - 夢醒時分</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band6">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/cross_road.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -318,9 +344,10 @@
 					<li> Oasis - Don't Look Back In Anger</li>
 				</ul>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band7">
+                    <div class="row">
 			<div class="col-md-3"><img src="http://placehold.it/200x200&text=Band 7" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -351,9 +378,10 @@
 					<li>Phil Collins - Easy Lover</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band8">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/snow_white.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -398,9 +426,10 @@
 					<li>Bon Jovi - Always</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band9">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/reunion.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -426,9 +455,10 @@
 					<li> io - 真實</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band10">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/pa_bro.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -457,9 +487,10 @@
 							<li>FTIsland - Black chocolate</li>
 						</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band11">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/little_bee.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -488,9 +519,10 @@
 					<li>coldplay - viva la vida</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band12">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/the_ins.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -515,9 +547,10 @@
 					<li>Avril Lavigne - Nobody's Home</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="well" id="band13">
+                    <div class="row">
 			<div class="col-md-3"><img src="./img/band_pic/football_love.jpg" class="img-responsive img-rounded">
 			</div>
 			<div class="col-md-9">
@@ -546,7 +579,7 @@
 					<li>自創 - 歧角</li>
 				</ol>
 			</div>
-			<a href="#" class="btn btn-xs btn-info">Back to top</a>
+                    </div>
 		</div>
 		<div class="container-fluid" id="agenda">
 		</div>
@@ -555,6 +588,10 @@
 			<iframe class="embed-responsive-item" width="643" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/14YepbyheWTZTKtr7uXiePPuJe0d1EjcdIP78tj2Hq2Y/pubchart?oid=1472798053&amp;format=interactive"></iframe>
 			<a href="http://goo.gl/forms/InI17csSIo" target="_blank">點我投票</a>
 		</div>
+		<!--let the belows be below-->
+		<div class="container-fluid" id="">
+                  <a href="#" class="btn back-to-top"><h4><img src="./img/cd-top-arrow.svg">Top</h4></a>
+                </div>
 </body>
 
 </html>
