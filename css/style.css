@@ -4,7 +4,7 @@ body{
 	color: #fff;
 }
 #banner{
-	padding-top: -10px;
+	background: #000;
 }
 #bands{
 	padding-top: 60px;
@@ -23,7 +23,7 @@ h1{
 }
 .navbar{
 //	background: #4d4398;
-	background: #222222; //#333;
+	background: #222222; //#333; 
 	color: #fff;
 	margin-bottom: 0;
 }
