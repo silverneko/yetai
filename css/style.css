@@ -64,3 +64,9 @@ h1{
 .back-to-top:hover{
     color: #ffffff;
 }
+#agenda h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#777;
+}
